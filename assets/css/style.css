@@ -1,15 +1,38 @@
+body {
+  background-color: gray;
+  color: white;
+}
+
+
 main {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
   }
 
-snippets {
-    flex: 4;
-  background-color: #fff;
-  padding: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
+header h1 {
+  font-size: 35px;
+  color: purple;
+  text-align: center;
+  padding: 30px;
+}
+
+nav p {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+section header {
+  text-align: center;
+  font-size: 180%;
+  color: purple;
+  padding: 10px;
+}
+
+section p {
+  color: purple;
+}
+
+.snippets {
+  padding: 30px;
 }
