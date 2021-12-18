@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(51, 52, 58);
   color: white;
 }
 
@@ -15,46 +15,51 @@ main {
   }
 
 header h1 {
-  font-size: 35px;
-  color: rgb(158, 86, 158);
+  font-size: 45px;
+  color: rgb(212, 54, 212);
   text-align: center;
   padding: 30px;
 }
 
 nav p {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 75px;
 }
 
 section header {
   width: 65%;
   font-size: 180%;
   font-weight: bold;
-  color: rgb(158, 86, 158);
+  color: rgb(212, 54, 212);
   padding: 10px;
   position: relative;
+  left: 15%;
   bottom: 55px;
   border-style: solid;
   border-color: white;
-  border-width: 5px;
-  border-radius: 10%;
-  background-color: rgb(43, 43, 43);
+  border-width: 2px;
+  border-radius: 2%;
+  background-color: rgb(51, 52, 58);
+  text-align: center;
  
 }
 
 section div {
-  background-color: rgb(158, 86, 158);
+  background-color: rgb(212, 54, 212);
   padding: 20px;
   border-radius: 20px;
+  background-image: linear-gradient(rgba(145, 76, 145, 0.322),rgba(187, 87, 187, 0.267) 200%);
+
 }
 
-code div {
+code div{
   padding: 5px;
   margin-left: 20px;
+  background: rgba(0, 0, 0, 0);
 }
 
 section p {
-  color: rgb(158, 86, 158);
+  color: rgb(212, 54, 212);
   position: relative;
   bottom: 35px;
 }
@@ -80,3 +85,16 @@ footer p {
   padding-bottom: 10px;
   font-style: italic;
 }
+
+@media screen and (max-width: 992px) {
+  .snippets {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .snippets {
+    width: 100%;
+  }
+}
+
