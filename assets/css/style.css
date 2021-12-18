@@ -1,3 +1,4 @@
+
 body {
   background-color: gray;
   color: white;
@@ -8,6 +9,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    justify-content: center;
   }
 
 header h1 {
@@ -23,10 +25,20 @@ nav p {
 }
 
 section header {
-  text-align: center;
+  width: 65%;
+  
   font-size: 180%;
+  font-weight: bold;
   color: purple;
   padding: 10px;
+  position: relative;
+  bottom: 55px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  background-color: grey;
+  
+ 
 }
 
 section p {
@@ -35,4 +47,7 @@ section p {
 
 .snippets {
   padding: 30px;
+  margin: 10px;
+  border-style: dashed;
+  width: 25%;
 }
