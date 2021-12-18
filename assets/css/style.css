@@ -1,6 +1,8 @@
-
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: gray;
+  background-color: rgb(43, 43, 43);
   color: white;
 }
 
@@ -14,7 +16,7 @@ main {
 
 header h1 {
   font-size: 35px;
-  color: purple;
+  color: rgb(158, 86, 158);
   text-align: center;
   padding: 30px;
 }
@@ -26,28 +28,55 @@ nav p {
 
 section header {
   width: 65%;
-  
   font-size: 180%;
   font-weight: bold;
-  color: purple;
+  color: rgb(158, 86, 158);
   padding: 10px;
   position: relative;
   bottom: 55px;
   border-style: solid;
   border-color: white;
   border-width: 5px;
-  background-color: grey;
-  
+  border-radius: 10%;
+  background-color: rgb(43, 43, 43);
  
 }
 
+section div {
+  background-color: rgb(158, 86, 158);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+code div {
+  padding: 5px;
+  margin-left: 20px;
+}
+
 section p {
-  color: purple;
+  color: rgb(158, 86, 158);
+  position: relative;
+  bottom: 35px;
 }
 
 .snippets {
   padding: 30px;
-  margin: 10px;
+  margin: 20px 10px 20px 10px;
   border-style: dashed;
   width: 25%;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+}
+
+footer h3 {
+  font-size: 125%;
+  padding: 10px;
+}
+
+footer p {
+  padding-bottom: 10px;
+  font-style: italic;
 }
